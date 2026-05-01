@@ -69,6 +69,9 @@ web_modules/
 .env
 .env.*
 !.env.example
+!.env.local.example
+# Firebase service-account keys (downloaded from Project settings → Service accounts)
+*firebase-adminsdk*.json
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -141,3 +144,8 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+.claude
+.venv
+.mcp.json
+__pycache__/

@@ -1,0 +1,17 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+firebase-admin>=6.5.0
+httpx>=0.27.0
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+
+# Cloudflare R2 storage (S3-compatible, 10 GB free, no billing required)
+boto3>=1.34.0
+
+# Background removal — local, free (downloads U²-Net weights ~170 MB on first use)
+rembg>=2.0.50
+pillow>=10.0.0
+onnxruntime>=1.17.0
+
+# 3D generation — calls free Hugging Face Space (TripoSR) via gradio
+gradio-client>=1.3.0
